@@ -1,0 +1,12 @@
+{
+    "courseName": "Sample Course By Playwright From JSON",
+    "thumbnailPath": "./data/images/File.png",
+    "description": "Sample",
+    "instructorName": "Mukesh Otwani",
+    "price": "200",
+    "category": "JavaScript",
+    "dates": [
+        { "month": "December", "year": "2026", "date": "25" },
+        { "month": "December", "year": "2027", "date": "25" }
+    ]
+}
