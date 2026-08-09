@@ -14,7 +14,8 @@ test.describe("Login Test Scenarios",()=>{
 
         await dashboardPage.logoutFromApplication()
 
-        await expect(page).toHaveURL("/login")        
+        await expect(page).toHaveURL("/login")   
+        
 
     })
 
