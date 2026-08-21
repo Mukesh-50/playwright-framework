@@ -2,7 +2,7 @@
 
 This is a UI test automation framework built with **Playwright** and **JavaScript**. It tests a web app at `https://freelance-learn-automation.vercel.app` (login, category management, course management).
 
-Below is a plain-language walkthrough of every folder and how they work together.
+Below is a plain-language walkthrough of every folder and how they work together. 
 
 ---
 
