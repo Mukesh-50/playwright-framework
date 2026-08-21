@@ -13,7 +13,7 @@ export default defineConfig({
   
   retries: process.env.CI ? 2 : 0,
  
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 2 : undefined,
   
   reporter: [['html'],["allure-playwright"]],
   
@@ -21,7 +21,7 @@ export default defineConfig({
    
     baseURL: 'https://freelance-learn-automation.vercel.app',
 
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
 
     screenshot: "only-on-failure",
 
